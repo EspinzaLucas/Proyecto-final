@@ -1,0 +1,136 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: brown;
+    padding: 16px;
+
+
+}
+
+h1{
+    font-style: italic;
+    font-weight: 100;
+    display: inline-flex;
+    position: relative;
+    bottom: 35px;
+    left: 10px;
+}
+
+header img{
+    width:  260px;
+    
+}
+
+nav{
+    background-color: rgb(168, 52, 52);
+    margin-bottom: 30px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li{
+    flex-grow: 1;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a.activo{
+    background-color: brown;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+}
+
+.cosas{
+    background-color: brown;
+    border-top:1px solid #000 ;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+}
+
+nav ul li a .producto{
+        cursor: pointer;
+        display: block;
+        float: left;
+        text-transform: uppercase;
+}
+/* botonera */
+footer{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+    margin-top: 30px;
+
+}
+
+.holder{
+    width: 960px;
+    margin: 0 auto;
+}
+
+h2{
+    color: black;
+    font-weight: 400;
+}
+h2 .am{
+    margin-bottom: 30px;
+}
+.columnas{
+    display: flex;
+}
+
+.bienvenidos{
+    width: auto;
+    padding-right: 30px;
+    /* background-color: yellow; */
+}
+
+.testimonios{
+    width: auto;
+
+    /* background-color: orange; */
+}
+
+.bienvenidos p{
+    font-size: 25px;
+}
+
+.testimonio{
+    background-color: gray;
+    padding: 16px;
+    font-weight: 16px;
+}
+
+.testimonio img{
+    width: 400px;
+}
+
+input{
+    display: inline-block;
+
+}
